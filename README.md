@@ -6,21 +6,28 @@ var capabilities = {
 var browser = webdriver.Builder().withCapabilities(capabilities).build();
 await browser.get('medseek-engineering.github.io/qa-engineer-test/');
 
+var promise = driver.getTitle();promise.then(function(title));
+console.log("Join the fight against bad bugs :" + title);
+
  driver.findElement(webdriver.By.id('Join The Fight')).click();
+
+var header = driver.getHeader();promise.then(function(header));
+console.log("Thank you for your interest:" + h1);
+
 
 var name = driver.findElement(By.id('xyz'));
 name.clear();
 name.sendKeys("name");
     
-var email = driver.findElement(By.id('xyz@gmail.com');
+var email = driver.findElement(By.id('xyz@gmail.com'));
 email.clear();
 email.sendKeys("email")
 
-jobTitle.sendKeys("title"); var  = driver.findElement(By.id('yyyyzzzz'), 2000);
-password.clear();
-password.sendKeys("password");
+jobTitle.sendKeys("jobtitle"); var  = driver.findElement(By.id('xyz'));
+jobtitle.clear();
+jobtitle.sendKeys(title");
 
-Select dropdown = new Select(driver.findElement(By.id("selectyouindustry")));
+Select dropdown = new Select(driver.findElement(By.id("selectyourindustry")));
 dropdown.selectByVisibleText("Computer Software");
     
 
