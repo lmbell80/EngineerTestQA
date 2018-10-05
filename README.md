@@ -25,7 +25,11 @@ email.sendKeys("email")
 
 jobTitle.sendKeys("jobtitle"); var  = driver.findElement(By.id('xyz'));
 jobtitle.clear();
-jobtitle.sendKeys(title");
+jobtitle.sendKeys("title");
+
+Company.sendKeys("company"); var driver.findelement(By.id('wxyz'));
+company.clear();
+company.sendKeys("company");
 
 Select dropdown = new Select(driver.findElement(By.id("selectyourindustry")));
 dropdown.selectByVisibleText("Computer Software");
